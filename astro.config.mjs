@@ -5,6 +5,8 @@ import { fontProviders } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://elepnn-sudo.github.io",
+  base: "/elenapenni.design",
   fonts: [
     {
       provider: fontProviders.fontsource(),
